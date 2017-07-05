@@ -1,0 +1,22 @@
+{
+  "name": "curso_node",
+  "version": "0.1.0",
+  "description": "Esta es la descripcion ",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosRH7/node.git"
+  },
+  "keywords": [
+    "primero"
+  ],
+  "author": "Carlos Alberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosRH7/node/issues"
+  },
+  "homepage": "https://github.com/CarlosRH7/node#readme"
+}
