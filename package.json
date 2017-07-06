@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/CarlosRH7/node/issues"
   },
-  "homepage": "https://github.com/CarlosRH7/node#readme"
+  "homepage": "https://github.com/CarlosRH7/node#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }

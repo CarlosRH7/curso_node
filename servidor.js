@@ -1,8 +1,9 @@
-var fs = require('fs');
-var contenido = fs.readFileSync('/Users/carlos/Desktop/curso_node/destino.html');
+var http =require("http");
 
-console.log(contenido);
-console.log('haga otro clic 1 ');
-console.log('haga otro clic 2');
-console.log('haga otro clic 3');
-console.log('haga otro clic 4');
+http.createServer(function(request, response){
+	response.writeHeader(200);
+	response.write('Hola mudo');
+	response.end();
+}).listen(8080);
+
+console.log('Escuchando el puerto 8080');
